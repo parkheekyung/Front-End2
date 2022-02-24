@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 내가 한 것 */
+
+/* #container{
+    width: 520px;
+    background-color: rgb(253, 244, 193);
+    border: 6px solid rgb(248, 197, 27);
+    padding: 10px;
+    margin: 0 auto;
+    font-family: '나눔명조','serif';
+}
+
+header>h1{
+    font: bold 24px Arial,sans-serif;
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+section{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.left{
+    width: 210px;
+    float: left;
+    background-color: rgb(197, 155, 15);
+    padding: 16px;
+    text-align: justify;
+}
+
+.left>p{
+    margin-bottom: 16px;
+}
+
+.right{
+    width: 210px;
+    float: right;
+    background-color: rgb(233, 104, 29);
+    padding: 16px;
+    text-align: justify;
+}
+
+.right>p{
+    margin-bottom: 16px;
+} */
+
+/* 쌤이 하신 것 */
+
+div#container{
+    width: 530px;
+    border: 5px solid rgb(248, 197, 27);
+    padding: 15px 10px 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: rgb(253, 244, 193);
+}
+
+header{
+    margin-bottom: 23px;
+    font: bold 23px Times,serif;
+    text-align: center;
+}
+/* header>h1{상속->font-size, font-family, text-align} */
+
+section{
+    /* width: auto; */
+    /* background-color: pink; */
+    overflow: hidden;
+}
+/* 공통부분 */
+section>article{
+    width: 230px;
+    padding: 15px;
+    font-family: times,serif;
+    text-align: justify;
+    box-sizing: border-box;
+    line-height: 1.3;
+}
+
+section>article>p{
+    margin-bottom: 10px;
+}
+
+/* 다른부분 */
+section>.left{
+    float: left;
+    background-color: rgb(197, 155, 15);
+}
+
+section>.right{
+    float: right;
+    background-color: rgb(233, 104, 29);
+}
